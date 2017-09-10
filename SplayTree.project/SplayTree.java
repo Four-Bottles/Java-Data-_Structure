@@ -193,6 +193,7 @@ public class SplayTree<AnyType extends Comparable<? super AnyType>> {
 
     public void makeEmpty() {
         root = nullNode;
+        size = 0;
     }
 
     public boolean isEmpty() {
